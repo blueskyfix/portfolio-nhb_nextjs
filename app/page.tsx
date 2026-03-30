@@ -118,7 +118,7 @@ export default function Home() {
               <a href="#projects" className="link">Mes réalisations</a>
             </button>
             <button className="Manrope">
-              <a href="/assets/CV.pdf" download className="link">
+              <a href="/assets/Horatio-dev CV.pdf" download className="link">
                 Télécharger CV →
               </a>
             </button>

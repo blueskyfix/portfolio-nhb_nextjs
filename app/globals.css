@@ -1027,7 +1027,7 @@ footer .social-links li a:hover img { filter: brightness(0); }
   .cit { margin: 2rem auto; padding: 2.5rem 1.5rem 2rem; width: 95%; }
   .cit::before { font-size: 3.5rem; }
 
-  #contact { padding: 2.5rem 1.5rem; margin: 2rem auto; }
+  #contact { padding: 2.5rem 1.5rem; margin: 2rem auto; margin-bottom: 5rem; }
   .form-row { grid-template-columns: 1fr; }
 
   footer { padding: 2.5rem 1.5rem 1rem; }

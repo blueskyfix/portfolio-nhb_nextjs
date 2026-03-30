@@ -1,6 +1,8 @@
 import dynamic from 'next/dynamic'
 import Image from 'next/image'
 
+import ContactForm from '@/components/ContactForm'
+
 // Chargé uniquement côté client (étoiles, particules, scroll, nav)
 const ClientEffects = dynamic(() => import('@/components/ClientEffects'), {
   ssr: false,
@@ -275,23 +277,7 @@ export default function Home() {
             <h3 className="Space_Grotesk">Discutons de votre projet</h3>
           </div>
           <div>
-            <form action="" method="post">
-              <div className="form-row">
-                <input type="text" name="nom" placeholder="Nom" className="Manrope" required />
-                <input type="text" name="prenom" placeholder="Prénom" className="Manrope" required />
-              </div>
-              <input type="email" name="email" placeholder="Email" className="Manrope" required />
-              <textarea
-                name="message"
-                rows={5}
-                placeholder="Votre message..."
-                className="Manrope"
-                required
-              />
-              <button type="button" className="Manrope">
-                Envoyer →
-              </button>
-            </form>
+            <ContactForm />
           </div>
         </section>
 

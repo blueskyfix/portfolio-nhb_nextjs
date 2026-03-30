@@ -812,7 +812,7 @@ p { line-height: 1.8; color: rgba(255,255,255,0.9); }
 
 #contact textarea { min-height: 150px; resize: vertical; }
 
-#contact button[type="button"] {
+#contact button[type="submit"] {
   padding: 1rem 2.5rem;
   border-radius: 8px;
   border: 2px solid #A259FF;
@@ -826,7 +826,7 @@ p { line-height: 1.8; color: rgba(255,255,255,0.9); }
   align-self: center;
 }
 
-#contact button[type="button"]:hover {
+#contact button[type="submit"]:hover {
   background: #A259FF;
   color: #0A0A0A;
   box-shadow: 0 0 30px rgba(162,89,255,0.8);

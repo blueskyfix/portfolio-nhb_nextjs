@@ -13,12 +13,12 @@ const ClientEffects = dynamic(() => import('@/components/ClientEffects'), {
 const projects = [
   {
     id: 1,
-    image: '/assets/Images/folding-house.png',
-    alt: 'Site vitrine Folding House',
-    title: 'Folding House\nLanding Page',
+    image: '/assets/Images/app-web.png',
+    alt: 'Application Web Personnalisée',
+    title: 'JFN Center\n Site Demo ',
     description:
-      "Développement d'une plateforme vitrine pour la vente de maisons capsules innovantes. Un design conçu pour une audience internationale avec contact et pages e-commerce de produits (catalogues et descriptions).",
-    link: 'https://foldinghouse.site',
+      "Refonte ergonomique pour le centre JFN. Une architecture d'information pensée pour faciliter l'accès aux programmes de son centre de formation et ceux d'incubation de projet dans le but de booster les inscriptions en ligne.",
+    link: 'https://jfncenter-demo.onrender.com/',
   },
   {
     id: 2,
@@ -31,12 +31,12 @@ const projects = [
   },
   {
     id: 3,
-    image: '/assets/Images/app-web.png',
-    alt: 'Application Web Personnalisée',
-    title: 'JFN Center\n Site Demo ',
+    image: '/assets/Images/folding-house.png',
+    alt: 'Site vitrine Folding House',
+    title: 'Folding House\nLanding Page',
     description:
-      "Refonte ergonomique pour le centre JFN. Une architecture d'information pensée pour faciliter l'accès aux programmes de son centre de formation et ceux d'incubation de projet dans le but de booster les inscriptions en ligne.",
-    link: 'https://jfncenter-demo.onrender.com/',
+      "Développement d'une plateforme vitrine pour la vente de maisons capsules innovantes. Un design conçu pour une audience internationale avec contact et pages e-commerce de produits (catalogues et descriptions).",
+    link: 'https://foldinghouse.site',
   },
 ]
 

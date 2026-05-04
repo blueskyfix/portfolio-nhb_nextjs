@@ -151,7 +151,7 @@ export default function Home() {
           </div>
           <div className="imgsimp Manrope">
             <Image
-              src="/assets/Images/Images.jpeg"
+              src="/assets/Images/photo.jpeg"
               alt="Horatio NGUEND - Développeur Web Freelance à Douala"
               fill
               style={{ objectFit: 'cover', borderRadius: '18px' }}

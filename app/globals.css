@@ -434,7 +434,8 @@ p { line-height: 1.8; color: rgba(255,255,255,0.9); }
 }
 
 .imgsimp {
-  min-height: 450px;
+  width: 548px;
+  min-height: 604px;
   background: linear-gradient(135deg, rgba(162,89,255,0.2), rgba(191,33,159,0.2));
   border: 2px solid rgba(162,143,255,0.3);
   border-radius: 20px;

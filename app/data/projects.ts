@@ -48,6 +48,14 @@ export const projects: Project[] = [
     description:"Conception d’une boutique en ligne moderne pensée pour offrir une navigation simple et rapide. Une interface claire, orientée conversion, permettant de mettre en valeur les produits et de faciliter l’expérience d’achat sur mobile comme sur ordinateur.",
     link: 'https://k-shop.gt.tc',
   },
+  {
+    id: 5,
+    image: '/assets/Images/thereza.png',
+    alt: 'Thereza Market 237 E-commerce',
+    title: 'Thereza Market 237 \n Boutique E-commerce',
+    description:"Création d’une plateforme de vente en ligne moderne, conçue pour attirer l’attention, mettre en avant les offres et transformer les visiteurs en clients. Une expérience utilisateur simple et persuasive, adaptée au mobile et aux objectifs de performance commerciale.",
+    link: 'https://therezamarket237.com/',
+  },
 ];
 
 // Projets mis en avant sur la home (max 3)

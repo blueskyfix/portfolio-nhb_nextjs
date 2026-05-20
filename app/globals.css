@@ -572,7 +572,7 @@ p { line-height: 1.8; color: rgba(255,255,255,0.9); }
 
 #list_project {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  grid-template-columns: repeat(3, 1fr);
   gap: 2rem;
 }
 
@@ -605,9 +605,9 @@ p { line-height: 1.8; color: rgba(255,255,255,0.9); }
 }
 
 .project h3 { color: #A259FF; margin-bottom: 1rem; font-size: 1.2rem; }
-.project p { color: rgba(255,255,255,0.8); line-height: 1.6; margin-bottom: 1.5rem; flex: 1; }
+.project p, .projects p { color: rgba(255,255,255,0.8); line-height: 1.6; margin-bottom: 1.5rem; flex: 1; }
 
-.project button {
+.project button, .plus button {
   padding: 0.75rem 1.5rem;
   border-radius: 8px;
   border: 2px solid #A259FF;
@@ -620,7 +620,7 @@ p { line-height: 1.8; color: rgba(255,255,255,0.9); }
   align-self: flex-start;
 }
 
-.project button:hover {
+.project button:hover, .plus button:hover {
   background-color: #A259FF;
   color: #0A0A0A;
   box-shadow: 0 0 20px rgba(162,89,255,0.6);
@@ -991,7 +991,7 @@ footer .social-links li a:hover img { filter: brightness(0); }
     transform: translateX(-50%);
     width: 92vw;
     background: rgba(15,15,15,0.96);
-    backdrop-filter: blur(20px);
+    --webkit-backdrop-filter: blur(20px);
     border: 1px solid rgba(162,143,255,0.25);
     border-radius: 20px;
     padding: 0.75rem;

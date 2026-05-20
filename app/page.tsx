@@ -1,5 +1,7 @@
 import dynamic from 'next/dynamic'
 import Image from 'next/image'
+import Link from "next/link";
+import { featuredProjects } from "@/app/data/projects";
 
 import ContactForm from '@/components/ContactForm'
 
@@ -7,38 +9,6 @@ import ContactForm from '@/components/ContactForm'
 const ClientEffects = dynamic(() => import('@/components/ClientEffects'), {
   ssr: false,
 })
-
-// ─── Données des projets ────────────────────────────────────────────────────
-// Pour ajouter un projet → ajouter un objet ici, rien d'autre à toucher.
-const projects = [
-  {
-    id: 1,
-    image: '/assets/Images/app-web.png',
-    alt: 'Application Web Personnalisée',
-    title: 'JFN Center\n Site Demo ',
-    description:
-      "Refonte ergonomique pour le centre JFN. Une architecture d'information pensée pour faciliter l'accès aux programmes de son centre de formation et ceux d'incubation de projet dans le but de booster les inscriptions en ligne.",
-    link: 'https://jfncenter-demo.onrender.com/',
-  },
-  {
-    id: 2,
-    image: '/assets/Images/destockage.png',
-    alt: 'Landing page Destockage Alimentaire',
-    title: 'Destockage Alimentaire\nE-commerce',
-    description:
-      "Solution française d'e-commerce de déstockage alimentaire. Une interface optimisée pour l'achat immédiat et la navigation par catégories, alliant performance commerciale et engagement contre le gaspillage.",
-    link: 'https://destockagealimentaireprixmini.com/',
-  },
-  {
-    id: 3,
-    image: '/assets/Images/folding-house.png',
-    alt: 'Site vitrine Folding House',
-    title: 'Folding House\nLanding Page',
-    description:
-      "Développement d'une plateforme vitrine pour la vente de maisons capsules innovantes. Un design conçu pour une audience internationale avec contact et pages e-commerce de produits (catalogues et descriptions).",
-    link: 'https://foldinghouse.site',
-  },
-]
 
 // ─── Données des services ────────────────────────────────────────────────────
 const services = [
@@ -217,7 +187,7 @@ export default function Home() {
         <section id="projects">
           <h2 className="Space_Grotesk">Portfolio - Mes Projets Web</h2>
           <div id="list_project">
-            {projects.map((project) => (
+            {featuredProjects.map((project) => (
               <div className="project" key={project.id}>
                 <Image
                   src={project.image}
@@ -242,6 +212,13 @@ export default function Home() {
                 )}
               </div>
             ))}
+          </div>
+          <div className="flex justify-center mt-8">
+            <Link href="/projects"
+              className="group inline-flex items-center px-8 py-4 plus">
+              <button>Voir tous mes projets</button>
+              <i className="fa-solid fa-arrow-right transition-transform duration-300 group-hover:translate-x-1"></i>
+            </Link>
           </div>
         </section>
 

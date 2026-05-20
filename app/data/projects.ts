@@ -38,7 +38,6 @@ export const projects: Project[] = [
     description:
       "Développement d'une plateforme vitrine pour la vente de maisons capsules innovantes. Un design conçu pour une audience internationale avec contact et pages e-commerce de produits (catalogues et descriptions).",
     link: 'https://foldinghouse.site',
-    featured: true,
   },
   {
     id: 4,
@@ -47,6 +46,7 @@ export const projects: Project[] = [
     title: 'K-Shop \n Boutique E-commerce',
     description:"Conception d’une boutique en ligne moderne pensée pour offrir une navigation simple et rapide. Une interface claire, orientée conversion, permettant de mettre en valeur les produits et de faciliter l’expérience d’achat sur mobile comme sur ordinateur.",
     link: 'https://k-shop.gt.tc',
+    featured: true,
   },
   {
     id: 5,

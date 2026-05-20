@@ -11,15 +11,15 @@ export const metadata: Metadata = {
     description:
       'Développeur web passionné spécialisé dans la création de sites vitrines et applications web modernes.',
     type: 'website',
-    url: 'https://votredomaine.com',
-    images: [{ url: 'https://votredomaine.com/assets/Images/og-image.jpg' }],
+    url: 'https://horatio-dev-three.vercel.app',
+    images: [{ url: 'https://horatio-dev-three.vercel.app/assets/Images/og-image.jpg' }],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Horatio NGUEND - Développeur Web Freelance Douala',
     description:
       'Développeur web passionné spécialisé dans la création de sites vitrines et applications web modernes.',
-    images: ['https://votredomaine.com/assets/Images/twitter-card-image.jpg'],
+    images: ['https://horatio-dev-three.vercel.app/assets/Images/twitter-card-image.jpg'],
   },
 }
 

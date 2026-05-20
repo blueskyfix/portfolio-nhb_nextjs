@@ -141,8 +141,8 @@ export default function Home() {
                 { src: '/assets/icons/icons8-html-5-96.png', alt: 'HTML5', label: 'HTML' },
                 { src: '/assets/icons/icons8-css3-100.png', alt: 'CSS3', label: 'CSS' },
                 { src: '/assets/icons/icons8-javascript-240.png', alt: 'JavaScript', label: 'JavaScript' },
-                { src: '/assets/icons/icons8-react-natif-68.png', alt: 'React', label: 'ReactJS' },
-                { src: '/assets/icons/icons8-vent-arrièrecss-480.png', alt: 'Tailwind CSS', label: 'Tailwind' },
+                { src: '/assets/icons/icons8-react-96.png', alt: 'ReactJS', label: 'ReactJS' },
+                { src: '/assets/icons/icons8-vent-arrièrecss-480.png', alt: 'Tailwind CSS', label: 'Tailwind CSS' },
               ].map((tech) => (
                 <li key={tech.label}>
                   <Image src={tech.src} alt={tech.alt} className="icon" width={52} height={52} loading="lazy" />
@@ -157,6 +157,7 @@ export default function Home() {
                 { src: '/assets/icons/icons8-php-96.png', alt: 'PHP', label: 'PHP' },
                 { src: '/assets/icons/icons8-mysql-96.png', alt: 'MySQL', label: 'MySQL' },
                 { src: '/assets/icons/icons8-nœud-js-100.png', alt: 'Node.js', label: 'NodeJS' },
+                { src: '/assets/icons/icons8-next.js-96.png', alt: 'Next.js', label: 'NextJS' },
                 { src: '/assets/icons/icons8-python-480.png', alt: 'Python', label: 'Python' },
               ].map((tech) => (
                 <li key={tech.label}>
@@ -173,6 +174,18 @@ export default function Home() {
                 { src: '/assets/icons/icons8-notion-64.png', alt: 'Notion', label: 'Notion' },
                 { src: '/assets/icons/icons8-github-64.png', alt: 'GitHub', label: 'GitHub' },
                 { src: '/assets/icons/icons8-git-480.png', alt: 'Git', label: 'Git' },
+              ].map((tech) => (
+                <li key={tech.label}>
+                  <Image src={tech.src} alt={tech.alt} className="icon" width={52} height={52} loading="lazy" />
+                  <h4>{tech.label}</h4>
+                </li>
+              ))}
+            </ul>
+            <h3 className="Manrope">CMS</h3>
+            <ul className="icon-list">
+              {[
+                { src: '/assets/icons/icons8-wordpress-480.png', alt: 'Wordpress', label: 'Wordpress' },
+                { src: '/assets/icons/prestashop.png', alt: 'Prestashop', label: 'Prestashop' },
               ].map((tech) => (
                 <li key={tech.label}>
                   <Image src={tech.src} alt={tech.alt} className="icon" width={52} height={52} loading="lazy" />
@@ -214,8 +227,7 @@ export default function Home() {
             ))}
           </div>
           <div className="flex justify-center mt-8">
-            <Link href="/projects"
-              className="group inline-flex items-center px-8 py-4 plus">
+            <Link href="/projects" className="group inline-flex items-center px-8 py-4 plus">
               <button>Voir tous mes projets</button>
               <i className="fa-solid fa-arrow-right transition-transform duration-300 group-hover:translate-x-1"></i>
             </Link>

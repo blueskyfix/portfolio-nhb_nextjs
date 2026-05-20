@@ -84,7 +84,7 @@ export default function Home() {
         {/* HERO */}
         <section className="hero">
           <h1 className="Space_Grotesk">Horatio NGUEND</h1>
-          <p className="subtitle Manrope">Donnez une image professionnelle à votre entreprise avec un site web moderne et performant.</p>
+          <p className="subtitle Manrope">Donnez une image professionnelle à votre entreprise avec une présence en ligne moderne et performant.</p>
           <div className="btn-group">
             <button className="Manrope">
               <a href="#projects" className="link">Mes réalisations</a>

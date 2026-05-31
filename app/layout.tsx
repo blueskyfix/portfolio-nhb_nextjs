@@ -1,5 +1,7 @@
 import type { Metadata } from 'next'
+// @ts-ignore
 import './globals.css'
+import GoogleAnalytics from '@/components/GoogleAnalytics'
 
 export const metadata: Metadata = {
   title: 'Horatio Nguend | Développeur Web à Douala | Sites & Apps',
@@ -30,7 +32,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="fr">
-      <body>{children}</body>
+      <body><GoogleAnalytics />{children}</body>
     </html>
   )
 }

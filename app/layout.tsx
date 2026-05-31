@@ -4,7 +4,15 @@ import './globals.css'
 import GoogleAnalytics from '@/components/GoogleAnalytics'
 
 export const metadata: Metadata = {
-  title: 'Horatio Nguend | Développeur Web à Douala | Sites & Apps',
+  icons: {
+    icon: [
+      { url: '/assets/icons/favicon.ico' },
+      { url: '/assets/icons/favicon-16x16.png', sizes: '16x16', type: 'image/png' },
+      { url: '/assets/icons/favicon-32x32.png', sizes: '32x32', type: 'image/png' },
+    ],
+    apple: '/assets/icons/apple-touch-icon.png',
+  },
+  title: 'Horatio Nguend - Développeur Web à Douala - Sites & Apps',
   description:
     'Horatio NGUEND - Développeur web freelance à Douala, Cameroun. Création de sites vitrines, landing pages et applications web sur mesure. Donnez vie à vos projets. Contactez-moi !',
   authors: [{ name: 'Horatio NGUEND' }],

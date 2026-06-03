@@ -84,7 +84,8 @@ const jsonLd = {
       ],
       sameAs: [
         'https://github.com/blueskyfix',     // ← à remplacer
-        'https://wa.me/237653964737', // ← à remplacer
+        'https://fr.fiverr.com/horatio_nguend/', // ← à remplacer
+        'https://www.upwork.com/freelancers/~01988818e93ddd6e8c?mp_source=share', // ← à remplacer
       ],
     },
 

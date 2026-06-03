@@ -1,4 +1,6 @@
 import type { Metadata } from 'next'
+// Ajoute l'import du type en haut du fichier
+import { projects, type Project } from './data/projects'
 // @ts-ignore
 import './globals.css'
 import GoogleAnalytics from '@/components/GoogleAnalytics'

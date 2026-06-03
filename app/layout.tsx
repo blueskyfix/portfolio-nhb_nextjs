@@ -54,36 +54,76 @@ export const metadata: Metadata = {
   },
 }
 
-// Schema.org — adapté à ta structure réelle
+// ─── Schema.org dynamique branché sur projects.ts ──────────────────────────
+const BASE_URL = 'https://horatio-dev-three.vercel.app'
+
 const jsonLd = {
   '@context': 'https://schema.org',
-  '@type': 'Person',
-  name: 'Horatio NGUEND',
-  jobTitle: 'Développeur Web Freelance',
-  url: 'https://horatio-dev-three.vercel.app',
-  description: 'Développeur web freelance basé à Douala, Cameroun. Spécialisé en Next.js, React, PHP et WordPress.',
-  address: {
-    '@type': 'PostalAddress',
-    addressLocality: 'Douala',
-    addressRegion: 'Littoral',
-    addressCountry: 'CM',
-  },
-  knowsAbout: [
-    'Next.js', 'React', 'PHP', 'MySQL',
-    'WordPress', 'PrestaShop', 'Tailwind CSS',
-  ],
-  sameAs: [
-    'https://github.com/blueskyfix',    // ← à remplacer
-    'https://wa.me/237653964737', // ← à remplacer
-  ],
-  hasOccupation: {
-    '@type': 'Occupation',
-    name: 'Développeur Web',
-    occupationLocation: {
-      '@type': 'City',
-      name: 'Douala',
+  '@graph': [
+    // 1. Identité personnelle
+    {
+      '@type': 'Person',
+      '@id': `${BASE_URL}/#horatio`,
+      name: 'Horatio NGUEND',
+      jobTitle: 'Développeur Web Freelance',
+      url: BASE_URL,
+      description:
+        'Développeur web freelance basé à Douala, Cameroun. Spécialisé en Next.js, React, PHP, WordPress et PrestaShop.',
+      address: {
+        '@type': 'PostalAddress',
+        addressLocality: 'Douala',
+        addressRegion: 'Littoral',
+        addressCountry: 'CM',
+      },
+      knowsAbout: [
+        'Next.js', 'React', 'PHP', 'MySQL',
+        'WordPress', 'PrestaShop', 'Tailwind CSS',
+        'HTML', 'CSS', 'JavaScript',
+      ],
+      sameAs: [
+        'https://github.com/blueskyfix',     // ← à remplacer
+        'https://wa.me/237653964737', // ← à remplacer
+      ],
     },
-  },
+
+    // 2. Portfolio — liste dynamique des projets
+    {
+      '@type': 'ItemList',
+      '@id': `${BASE_URL}/projects#list`,
+      name: 'Portfolio – Projets Web réalisés par Horatio NGUEND',
+      description:
+        'Sélection de projets web livrés à des clients réels : sites vitrines, e-commerce, landing pages.',
+      numberOfItems: projects.length,
+      itemListElement: projects.map((project, index) => ({
+        '@type': 'ListItem',
+        position: index + 1,
+        item: {
+          '@type': 'WebSite',
+          name: project.title.replace(/\n/g, ' ').trim(),
+          description: project.description,
+          url: project.link ?? BASE_URL,
+          image: {
+            '@type': 'ImageObject',
+            url: `${BASE_URL}${project.image}`,
+            description: project.alt,
+          },
+          // Relie chaque projet à son créateur
+          author: { '@id': `${BASE_URL}/#horatio` },
+        },
+      })),
+    },
+
+    // 3. Site web lui-même
+    {
+      '@type': 'WebSite',
+      '@id': `${BASE_URL}/#website`,
+      url: BASE_URL,
+      name: 'Horatio Dev – Portfolio',
+      description: 'Portfolio officiel de Horatio NGUEND, développeur web freelance à Douala.',
+      inLanguage: 'fr-FR',
+      author: { '@id': `${BASE_URL}/#horatio` },
+    },
+  ],
 }
 
 export default function RootLayout({children,}: {children: React.ReactNode}) {

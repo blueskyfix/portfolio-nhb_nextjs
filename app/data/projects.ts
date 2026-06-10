@@ -56,6 +56,14 @@ export const projects: Project[] = [
     description:"Création d’une plateforme de vente en ligne moderne, conçue pour attirer l’attention, mettre en avant les offres et transformer les visiteurs en clients. Une expérience utilisateur simple et persuasive, adaptée au mobile et aux objectifs de performance commerciale.",
     link: 'https://therezamarket237.com/',
   },
+  {
+    id: 6,
+    image: '/assets/Images/ctc.png',
+    alt: 'Chaka Trade Consulting',
+    title: 'Chaka Trade Consulting \n Site vitrine',
+    description:"Creation d'un site ergonomique pour Chaka Trade Consulting. Une structure pensée pour faciliter l'accès aux informations de son programme de consulting et de sa methode d'approche dans le but de mieux presenter leurs programmes et services.",
+    link: 'https://therezamarket237.com/',
+  },
 ];
 
 // Projets mis en avant sur la home (max 3)

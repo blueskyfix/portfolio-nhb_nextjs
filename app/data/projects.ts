@@ -46,7 +46,6 @@ export const projects: Project[] = [
     title: 'K-Shop \n Boutique E-commerce',
     description:"Conception d’une boutique en ligne moderne pensée pour offrir une navigation simple et rapide. Une interface claire, orientée conversion, permettant de mettre en valeur les produits et de faciliter l’expérience d’achat sur mobile comme sur ordinateur.",
     link: 'https://k-shop.gt.tc',
-    featured: true,
   },
   {
     id: 5,
@@ -63,6 +62,7 @@ export const projects: Project[] = [
     title: 'Chaka Trade Consulting \n Site vitrine',
     description:"Creation d'un site ergonomique pour Chaka Trade Consulting. Une structure pensée pour faciliter l'accès aux informations de son programme de consulting et de sa methode d'approche dans le but de mieux presenter leurs programmes et services.",
     link: 'https://therezamarket237.com/',
+    featured: true,
   },
 ];
 

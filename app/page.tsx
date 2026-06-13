@@ -84,7 +84,7 @@ export default function Home() {
         {/* HERO */}
         <section className="hero">
           <h1 className="Space_Grotesk">Horatio NGUEND</h1>
-          <p className="subtitle Manrope">Donnez une image professionnelle à votre entreprise avec une présence en ligne moderne et performant.</p>
+          <p className="subtitle Manrope">Développeur fullstack · Freelance</p>
           <div className="btn-group">
             <button className="Manrope">
               <a href="#projects" className="link">Mes réalisations</a>
@@ -235,7 +235,7 @@ export default function Home() {
         </section>
 
         {/* SERVICES */}
-        <section id="services">
+        {/* <section id="services">
           <h2 className="Space_Grotesk">Mes Services de Développement Web</h2>
           <table>
             <tbody>
@@ -249,7 +249,7 @@ export default function Home() {
               </tr>
             </tbody>
           </table>
-        </section>
+        </section> */}
 
         {/* CITATION */}
         <section className="cit Manrope">

@@ -101,13 +101,23 @@ export default function Home() {
         <section className="sections" id="about_me">
           <div className='Manrope'>
             <h2 className="Space_Grotesk">About Me</h2>
-            <p className="bold">
+            {/* <p className="bold">
               <strong>Propulsez votre entreprise avec un partenaire local.</strong><br />
+            </p> */}
+            <p className='bold'>
+               Je suis <span className='bolder'>Horatio</span>, développeur web fullstack passionné.Mon parcours combine une solide maîtrise technique et une volonté constante de me perfectionner à travers des projets concrets, des défis techniques et une veille technologique permanente.
             </p>
-            <p className=' bold'>
-               Je suis <span className='bolder'>Horatio</span>, développeur web fullstack. J'aide les PME camerounaises à s'imposer sur le web en transformant leur vision en outils de croissance concrets afin d'attirer et convertir leurs prospects et visiteurs en clients.
+            <p className="bold">
+              Ce qui me motive chaque jour ? Transformer des idées complexes en outils numériques intuitifs 
+              et performants. Ma spécialité consiste à concevoir des applications web sur mesure et des plateformes 
+              robustes qui allient une architecture solide (backend) à une expérience utilisateur fluide et 
+              esthétique (frontend).
             </p>
-              <ul className='Manrope' style={{ listStyle: 'none', padding: 0 }}>
+            <p className="bold">
+              Actuellement disponible pour des missions freelance, collaborations techniques et opportunités 
+              de projets innovants à Douala et partout au Cameroun.
+            </p>
+              {/* <ul className='Manrope' style={{ listStyle: 'none', padding: 0 }}>
                   <li style={{ marginBottom: '10px' }}>
                     <strong ><span className='bolder italic'>Proximité :</span></strong> Une écoute réelle pour comprendre vos défis locaux et vos besoins spécifiques.
                   </li>
@@ -117,7 +127,7 @@ export default function Home() {
                   <li style={{ marginBottom: '10px' }}>
                     <strong><span className='bolder italic'>Accompagnement :</span></strong> Un service de A à Z, de la stratégie à la mise en ligne de votre projet jusqu'à l'analyse de vos ventes.
                   </li>
-                </ul>
+                </ul> */}
           </div>
           <div className="imgsimp Manrope">
             <Image

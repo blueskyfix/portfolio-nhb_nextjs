@@ -18,6 +18,7 @@ export const metadata: Metadata = {
     'application web Afrique centrale',
     'Horatio NGUEND',
   ],
+  applicationName: "Horatio Nguend",
   authors: [{ name: 'Horatio NGUEND' }],
   alternates: {
     canonical: 'https://horatio-dev-three.vercel.app',

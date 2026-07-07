@@ -54,7 +54,7 @@ body {
 .Space_Grotesk { font-family: 'Space_Grotesk', sans-serif; font-weight: 700; letter-spacing: 0.05em; }
 .Manrope { font-family: 'Manrope', sans-serif; }
 .Unbounded { font-family: 'Unbounded', sans-serif; font-weight: 700; letter-spacing: 0.05em; }
-.bold { font-weight: bold; }
+.bold { font-weight: bold;}
 .bolder { font-weight: 800; }
 .italic { font-style: italic; }
 

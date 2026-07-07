@@ -84,7 +84,7 @@ export default function Home() {
         {/* HERO */}
         <section className="hero">
           <h1 className="Space_Grotesk">Horatio NGUEND</h1>
-          <p className="subtitle Manrope">Développeur fullstack · Freelance</p>
+          <p className="subtitle Manrope">Je transforme des idées en produits web.</p>
           <div className="btn-group">
             <button className="Manrope">
               <a href="#projects" className="link">Mes réalisations</a>
@@ -105,17 +105,9 @@ export default function Home() {
               <strong>Propulsez votre entreprise avec un partenaire local.</strong><br />
             </p> */}
             <p className='bold'>
-               Je suis <span className='bolder'>Horatio</span>, développeur web fullstack passionné.Mon parcours combine une solide maîtrise technique et une volonté constante de me perfectionner à travers des projets concrets, des défis techniques et une veille technologique permanente.
-            </p>
-            <p className="bold">
-              Ce qui me motive chaque jour ? Transformer des idées complexes en outils numériques intuitifs 
-              et performants. Ma spécialité consiste à concevoir des applications web sur mesure et des plateformes 
-              robustes qui allient une architecture solide (backend) à une expérience utilisateur fluide et 
-              esthétique (frontend).
-            </p>
-            <p className="bold">
-              Actuellement disponible pour des missions freelance, collaborations techniques et opportunités 
-              de projets innovants à Douala et partout au Cameroun.
+              Je suis Horatio, développeur fullstack basé à Douala.
+              Je conçois des applications web sur mesure — des interfaces qui se tiennent côté front, des architectures qui tiennent côté back.
+              Ce qui me motive : résoudre des problèmes complexes avec du code propre, et livrer des produits que les gens utilisent vraiment.
             </p>
               {/* <ul className='Manrope' style={{ listStyle: 'none', padding: 0 }}>
                   <li style={{ marginBottom: '10px' }}>
@@ -273,7 +265,7 @@ export default function Home() {
         {/* CONTACT */}
         <section id="contact" className="section box">
           <div>
-            <h3 className="Space_Grotesk">Discutons de votre projet</h3>
+            <h3 className="Space_Grotesk">Une idée ? Parlons-en.</h3>
           </div>
           <div>
             <ContactForm />

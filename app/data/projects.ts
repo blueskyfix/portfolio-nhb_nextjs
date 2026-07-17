@@ -64,6 +64,14 @@ export const projects: Project[] = [
     link: 'https://ctc-9b03.onrender.com/',
     featured: true,
   },
+  {
+    id: 7,
+    image: '/assets/Images/fileo.png',
+    alt: 'FileoPDF',
+    title: 'FileoPDF \n Hub de traitement de document',
+    description:"Création d’un site ergonomique pour FileoPDF. Une structure pensée pour faciliter l’accès aux fonctionnalités de conversion, d’édition et de sécurisation des documents, afin de mieux présenter leurs outils et offres aux professionnels et particuliers.",
+    link: 'https://www.fileopdf.com',
+  },
 ];
 
 // Projets mis en avant sur la home (max 3)

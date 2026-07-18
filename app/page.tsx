@@ -123,7 +123,7 @@ export default function Home() {
           </div>
           <div className="imgsimp Manrope">
             <Image
-              src="/assets/Images/photo.jpeg"
+              src="/assets/Images/IMG-20260526-WA0069.jpg"
               alt="Horatio NGUEND - Développeur Web Freelance à Douala"
               fill
               style={{ objectFit: 'cover', borderRadius: '18px'}}

@@ -21,25 +21,6 @@ export const projects: Project[] = [
     featured: true,
   },
   {
-    id: 2,
-    image: '/assets/Images/destockage.png',
-    alt: 'Landing page Destockage Alimentaire',
-    title: 'Destockage Alimentaire\nE-commerce',
-    description:
-      "Solution française d'e-commerce de déstockage alimentaire. Une interface optimisée pour l'achat immédiat et la navigation par catégories, alliant performance commerciale et engagement contre le gaspillage.",
-    link: 'https://destockagealimentaireprixmini.com/',
-    featured: true,
-  },
-  {
-    id: 8,
-    image: '/assets/Images/folding-house.png',
-    alt: 'Site vitrine Folding House',
-    title: 'Folding House\nLanding Page',
-    description:
-      "Développement d'une plateforme vitrine pour la vente de maisons capsules innovantes. Un design conçu pour une audience internationale avec contact et pages e-commerce de produits (catalogues et descriptions).",
-    link: 'https://foldinghouse.site',
-  },
-  {
     id: 4,
     image: '/assets/Images/k-shop.png',
     alt: 'Boutique E-commerce K-shop',
@@ -70,6 +51,7 @@ export const projects: Project[] = [
     title: 'FileoPDF \n Hub de traitement de document',
     description:"Création d’un site ergonomique pour FileoPDF. Une structure pensée pour faciliter l’accès aux fonctionnalités de conversion, d’édition et de sécurisation des documents, afin de mieux présenter leurs outils et offres aux professionnels et particuliers.",
     link: 'https://www.fileopdf.com',
+    featured: true,
   },
   {
     id: 3,

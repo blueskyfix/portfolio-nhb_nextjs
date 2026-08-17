@@ -22,7 +22,7 @@ export const projects: Project[] = [
   },
   {
     id: 2,
-    image: '/assets/Images/destockage.png',
+    image: '/assets/Images/IMG-20260817-WA0004.jpg',
     alt: 'Landing page Destockage Alimentaire',
     title: 'Destockage Alimentaire\nE-commerce',
     description:

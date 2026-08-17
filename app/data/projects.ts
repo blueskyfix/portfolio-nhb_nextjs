@@ -21,6 +21,25 @@ export const projects: Project[] = [
     featured: true,
   },
   {
+    id: 2,
+    image: '/assets/Images/destockage.png',
+    alt: 'Landing page Destockage Alimentaire',
+    title: 'Destockage Alimentaire\nE-commerce',
+    description:
+      "Solution française d'e-commerce de déstockage alimentaire. Une interface optimisée pour l'achat immédiat et la navigation par catégories, alliant performance commerciale et engagement contre le gaspillage.",
+    link: 'https://destockagealimentaireprixmini.com/',
+    featured: true,
+  },
+  {
+    id: 3,
+    image: '/assets/Images/folding-house.png',
+    alt: 'Site vitrine Folding House',
+    title: 'Folding House\nLanding Page',
+    description:
+      "Développement d'une plateforme vitrine pour la vente de maisons capsules innovantes. Un design conçu pour une audience internationale avec contact et pages e-commerce de produits (catalogues et descriptions).",
+    link: 'https://foldinghouse.site',
+  },
+  {
     id: 4,
     image: '/assets/Images/k-shop.png',
     alt: 'Boutique E-commerce K-shop',
@@ -43,6 +62,7 @@ export const projects: Project[] = [
     title: 'Chaka Trade Consulting \n Site vitrine',
     description:"Creation d'un site ergonomique pour Chaka Trade Consulting. Une structure pensée pour faciliter l'accès aux informations de son programme de consulting et de sa methode d'approche dans le but de mieux presenter leurs programmes et services.",
     link: 'https://ctc-9b03.onrender.com/',
+    featured: true,
   },
   {
     id: 7,
@@ -51,16 +71,6 @@ export const projects: Project[] = [
     title: 'FileoPDF \n Hub de traitement de document',
     description:"Création d’un site ergonomique pour FileoPDF. Une structure pensée pour faciliter l’accès aux fonctionnalités de conversion, d’édition et de sécurisation des documents, afin de mieux présenter leurs outils et offres aux professionnels et particuliers.",
     link: 'https://www.fileopdf.com',
-    featured: true,
-  },
-  {
-    id: 3,
-    image: '/assets/Images/Foprolux.png',
-    alt: 'Foprolux Palace',
-    title: 'Foprolux Palace Hotel \n Site vitrine demo',
-    description:"Conception d'un site vitrine pour un hôtel de standing, pensé pour mettre en valeur l'expérience client dès la première visite. Développé avec Tailwind CSS et enrichi de carrousels dynamiques, le site présente les catégories de chambres, les services et l'hotel Foprolux Palace dans une mise en page moderne et adaptée au contexte camerounais.",
-    link: 'https://foprolux.vercel.app/',
-    featured: true,
   },
 ];
 

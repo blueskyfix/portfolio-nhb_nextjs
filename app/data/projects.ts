@@ -53,7 +53,6 @@ export const projects: Project[] = [
     title: 'Chaka Trade Consulting \n Site vitrine',
     description:"Creation d'un site ergonomique pour Chaka Trade Consulting. Une structure pensée pour faciliter l'accès aux informations de son programme de consulting et de sa methode d'approche dans le but de mieux presenter leurs programmes et services.",
     link: 'https://ctc-9b03.onrender.com/',
-    featured: true,
   },
   {
     id: 7,

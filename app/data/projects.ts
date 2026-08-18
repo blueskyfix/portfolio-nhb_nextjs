@@ -30,6 +30,14 @@ export const projects: Project[] = [
     link: 'https://destockagealimentaireprixmini.com/',
   },
   {
+    id: 3,
+    image: '/assets/Images/Foprolux.png',
+    alt: 'Foprolux Palace',
+    title: 'Foprolux Palace Hotel \n Site vitrine demo',
+    description:"Conception d'un site vitrine pour un hôtel de standing, pensé pour mettre en valeur l'expérience client dès la première visite. Développé avec Tailwind CSS et enrichi de carrousels dynamiques, le site présente les catégories de chambres, les services et l'hotel Foprolux Palace dans une mise en page moderne et adaptée au contexte camerounais.",
+    link: 'https://foprolux.vercel.app/',
+  },
+  {
     id: 4,
     image: '/assets/Images/k-shop.png',
     alt: 'Boutique E-commerce K-shop',
